@@ -1,0 +1,51 @@
+review_id,review_text,rating,clean_review,sentiment_score,sentiment_category,sentiment_intensity,review_length
+1,The product is excellent and works perfectly,5,the product is excellent and works perfectly,0.836,Positive,Very Positive,44
+2,"Very bad experience, totally disappointed",1,very bad experience totally disappointed,-0.8012,Negative,Very Negative,41
+3,"Amazing quality, I am very happy with this purchase",5,amazing quality i am very happy with this purchase,0.8313,Positive,Very Positive,51
+4,Not worth the money,2,not worth the money,-0.1695,Negative,Negative,19
+5,Customer service was helpful and polite,4,customer service was helpful and polite,0.4215,Positive,Positive,39
+6,"Terrible product, stopped working in a week",1,terrible product stopped working in a week,-0.6124,Negative,Very Negative,43
+7,"I love this item, highly recommended",5,i love this item highly recommended,0.7425,Positive,Very Positive,36
+8,Worst purchase I have ever made,1,worst purchase i have ever made,-0.6249,Negative,Very Negative,31
+9,The quality is decent for the price,3,the quality is decent for the price,0.0,Neutral,Neutral,35
+10,Very satisfied with the product,5,very satisfied with the product,0.4754,Positive,Positive,31
+11,Poor build quality,2,poor build quality,-0.4767,Negative,Negative,18
+12,Excellent performance and great value,5,excellent performance and great value,0.8807,Positive,Very Positive,37
+13,"Not satisfied, expected better",2,not satisfied expected better,-0.5773,Negative,Negative,30
+14,This product exceeded my expectations,5,this product exceeded my expectations,0.0,Neutral,Neutral,37
+15,Waste of money,1,waste of money,-0.4215,Negative,Negative,14
+16,Good quality and fast delivery,4,good quality and fast delivery,0.4404,Positive,Positive,30
+17,The product arrived damaged,1,the product arrived damaged,-0.4404,Negative,Negative,27
+18,Very happy with customer support,5,very happy with customer support,0.7713,Positive,Very Positive,32
+19,"The item is okay, nothing special",3,the item is okay nothing special,-0.092,Negative,Negative,33
+20,Extremely disappointed with this product,1,extremely disappointed with this product,-0.5256,Negative,Negative,40
+21,"Fantastic product, will buy again",5,fantastic product will buy again,0.5574,Positive,Positive,33
+22,Bad quality material,2,bad quality material,-0.5423,Negative,Negative,20
+23,Loved the design and functionality,5,loved the design and functionality,0.5994,Positive,Positive,34
+24,Does not work as advertised,1,does not work as advertised,0.0,Neutral,Neutral,27
+25,Great experience overall,5,great experience overall,0.6249,Positive,Very Positive,24
+26,Not happy with the purchase,2,not happy with the purchase,-0.4585,Negative,Negative,27
+27,Highly satisfied with the quality,5,highly satisfied with the quality,0.4754,Positive,Positive,33
+28,Very poor performance,1,very poor performance,-0.5256,Negative,Negative,21
+29,Excellent customer service,5,excellent customer service,0.5719,Positive,Positive,26
+30,The product broke after few uses,1,the product broke after few uses,-0.4215,Negative,Negative,32
+31,I am impressed with the quality,5,i am impressed with the quality,0.4767,Positive,Positive,31
+32,Terrible experience overall,1,terrible experience overall,-0.4767,Negative,Negative,27
+33,Good value for money,4,good value for money,0.6486,Positive,Very Positive,20
+34,Not recommended,2,not recommended,-0.1511,Negative,Negative,15
+35,Very pleased with this purchase,5,very pleased with this purchase,0.4927,Positive,Positive,31
+36,Poor packaging and late delivery,2,poor packaging and late delivery,-0.4767,Negative,Negative,32
+37,Outstanding quality,5,outstanding quality,0.6124,Positive,Very Positive,19
+38,Worst service ever,1,worst service ever,-0.6249,Negative,Very Negative,18
+39,Happy with the purchase,4,happy with the purchase,0.5719,Positive,Positive,23
+40,Disappointed with the results,2,disappointed with the results,-0.4767,Negative,Negative,29
+41,Superb product,5,superb product,0.6249,Positive,Very Positive,14
+42,Low quality and bad finish,2,low quality and bad finish,-0.6808,Negative,Very Negative,26
+43,Really satisfied,5,really satisfied,0.4754,Positive,Positive,16
+44,Not useful at all,1,not useful at all,-0.3412,Negative,Negative,17
+45,"Great product, easy to use",5,great product easy to use,0.7906,Positive,Very Positive,26
+46,Bad experience,1,bad experience,-0.5423,Negative,Negative,14
+47,Excellent choice,5,excellent choice,0.5719,Positive,Positive,16
+48,Would not buy again,2,would not buy again,0.0,Neutral,Neutral,19
+49,Highly recommended product,5,highly recommended product,0.2716,Positive,Positive,26
+50,Average quality,3,average quality,0.0,Neutral,Neutral,15
