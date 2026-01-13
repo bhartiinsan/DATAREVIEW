@@ -1,0 +1,41 @@
+review_id,language,review_text,sentiment_label,rating
+1,English,This product is absolutely amazing! Best purchase ever.,Positive,5
+2,English,Excellent quality and fast delivery. Highly recommended!,Positive,5
+3,English,Love it! Works perfectly and looks great.,Positive,5
+4,English,Outstanding service and product quality. Very satisfied.,Positive,5
+5,English,Fantastic experience! Will definitely buy again.,Positive,5
+6,English,Great value for money. Exceeded my expectations.,Positive,4
+7,English,Perfect! Exactly what I needed. Five stars!,Positive,5
+8,English,Wonderful product. Very happy with this purchase.,Positive,5
+9,English,Impressive quality and beautiful design. Absolutely love it!,Positive,5
+10,English,Best product in this category. Totally worth it.,Positive,5
+11,English,Terrible quality. Completely disappointed with this product.,Negative,1
+12,English,Worst purchase ever. Do not recommend at all.,Negative,1
+13,English,Very poor quality. Waste of money.,Negative,1
+14,English,Horrible experience. Product broke within a week.,Negative,1
+15,English,Extremely dissatisfied. Awful product quality.,Negative,1
+16,English,Bad quality and terrible customer service.,Negative,2
+17,English,Not worth the price. Very disappointing.,Negative,1
+18,English,Poor design and cheap materials. Regret buying this.,Negative,1
+19,English,Defective product. Requesting a refund immediately.,Negative,1
+20,English,Useless product. Complete waste of time and money.,Negative,1
+21,Hindi,यह उत्पाद बहुत शानदार है! बेहतरीन खरीदारी।,Positive,5
+22,Hindi,उत्कृष्ट गुणवत्ता और तेज़ डिलीवरी। अत्यधिक अनुशंसित!,Positive,5
+23,Hindi,इसे पसंद करता हूं! बिल्कुल सही काम करता है।,Positive,5
+24,Hindi,शानदार सेवा और उत्पाद गुणवत्ता। बहुत संतुष्ट।,Positive,5
+25,Hindi,शानदार अनुभव! निश्चित रूप से फिर से खरीदूंगा।,Positive,5
+26,Hindi,पैसे के लिए बढ़िया मूल्य। मेरी अपेक्षाओं से अधिक।,Positive,4
+27,Hindi,एकदम सही! बिल्कुल वही जो मुझे चाहिए था।,Positive,5
+28,Hindi,अद्भुत उत्पाद। इस खरीदारी से बहुत खुश।,Positive,5
+29,Hindi,प्रभावशाली गुणवत्ता और सुंदर डिज़ाइन। बिल्कुल पसंद है!,Positive,5
+30,Hindi,इस श्रेणी में सर्वश्रेष्ठ उत्पाद। पूरी तरह से इसके लायक।,Positive,5
+31,Hindi,भयानक गुणवत्ता। इस उत्पाद से पूरी तरह निराश।,Negative,1
+32,Hindi,अब तक की सबसे खराब खरीदारी। बिल्कुल भी अनुशंसित नहीं।,Negative,1
+33,Hindi,बहुत खराब गुणवत्ता। पैसे की बर्बादी।,Negative,1
+34,Hindi,भयानक अनुभव। एक हफ्ते में ही उत्पाद टूट गया।,Negative,1
+35,Hindi,अत्यंत असंतुष्ट। भयानक उत्पाद गुणवत्ता।,Negative,1
+36,Hindi,खराब गुणवत्ता और भयानक ग्राहक सेवा।,Negative,2
+37,Hindi,कीमत के लायक नहीं। बहुत निराशाजनक।,Negative,1
+38,Hindi,खराब डिज़ाइन और सस्ती सामग्री। इसे खरीदने का पछतावा।,Negative,1
+39,Hindi,दोषपूर्ण उत्पाद। तुरंत रिफंड का अनुरोध कर रहा हूं।,Negative,1
+40,Hindi,बेकार उत्पाद। समय और पैसे की पूरी बर्बादी।,Negative,1

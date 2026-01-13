@@ -1,0 +1,41 @@
+review_id,language,review_text,sentiment_label,rating,vader_prediction,vader_score,transformer_prediction,transformer_confidence
+1,English,This product is absolutely amazing! Best purchase ever.,Positive,5,Positive,0.8709,Positive,0.9815536737442017
+2,English,Excellent quality and fast delivery. Highly recommended!,Positive,5,Positive,0.7257,Positive,0.9567251205444336
+3,English,Love it! Works perfectly and looks great.,Positive,5,Positive,0.9299,Positive,0.9668251276016235
+4,English,Outstanding service and product quality. Very satisfied.,Positive,5,Positive,0.796,Positive,0.8920311331748962
+5,English,Fantastic experience! Will definitely buy again.,Positive,5,Positive,0.7644,Positive,0.932105541229248
+6,English,Great value for money. Exceeded my expectations.,Positive,4,Positive,0.7579,Positive,0.835530698299408
+7,English,Perfect! Exactly what I needed. Five stars!,Positive,5,Positive,0.6467,Positive,0.9945088028907776
+8,English,Wonderful product. Very happy with this purchase.,Positive,5,Positive,0.8268,Positive,0.8975262641906738
+9,English,Impressive quality and beautiful design. Absolutely love it!,Positive,5,Positive,0.9183,Positive,0.9754936099052429
+10,English,Best product in this category. Totally worth it.,Positive,5,Positive,0.7501,Positive,0.9268959164619446
+11,English,Terrible quality. Completely disappointed with this product.,Negative,1,Negative,-0.7574,Negative,0.8988027572631836
+12,English,Worst purchase ever. Do not recommend at all.,Negative,1,Negative,-0.7359,Negative,0.9608737826347351
+13,English,Very poor quality. Waste of money.,Negative,1,Negative,-0.7548,Negative,0.8827477693557739
+14,English,Horrible experience. Product broke within a week.,Negative,1,Negative,-0.743,Negative,0.9455360770225525
+15,English,Extremely dissatisfied. Awful product quality.,Negative,1,Negative,-0.7328,Negative,0.9087100028991699
+16,English,Bad quality and terrible customer service.,Negative,2,Negative,-0.765,Negative,0.8142409920692444
+17,English,Not worth the price. Very disappointing.,Negative,1,Negative,-0.6321,Negative,0.5844525694847107
+18,English,Poor design and cheap materials. Regret buying this.,Negative,1,Negative,-0.7096,Negative,0.6102015376091003
+19,English,Defective product. Requesting a refund immediately.,Negative,1,Negative,-0.4404,Negative,0.8828362822532654
+20,English,Useless product. Complete waste of time and money.,Negative,1,Negative,-0.6808,Negative,0.9476720094680786
+21,Hindi,यह उत्पाद बहुत शानदार है! बेहतरीन खरीदारी।,Positive,5,Neutral,0.0,Positive,0.7745577692985535
+22,Hindi,उत्कृष्ट गुणवत्ता और तेज़ डिलीवरी। अत्यधिक अनुशंसित!,Positive,5,Neutral,0.0,Positive,0.8451864123344421
+23,Hindi,इसे पसंद करता हूं! बिल्कुल सही काम करता है।,Positive,5,Neutral,0.0,Positive,0.5250130295753479
+24,Hindi,शानदार सेवा और उत्पाद गुणवत्ता। बहुत संतुष्ट।,Positive,5,Neutral,0.0,Positive,0.7420881986618042
+25,Hindi,शानदार अनुभव! निश्चित रूप से फिर से खरीदूंगा।,Positive,5,Neutral,0.0,Positive,0.7196811437606812
+26,Hindi,पैसे के लिए बढ़िया मूल्य। मेरी अपेक्षाओं से अधिक।,Positive,4,Neutral,0.0,Neutral,0.5137580037117004
+27,Hindi,एकदम सही! बिल्कुल वही जो मुझे चाहिए था।,Positive,5,Neutral,0.0,Positive,0.24467608332633972
+28,Hindi,अद्भुत उत्पाद। इस खरीदारी से बहुत खुश।,Positive,5,Neutral,0.0,Positive,0.7478955984115601
+29,Hindi,प्रभावशाली गुणवत्ता और सुंदर डिज़ाइन। बिल्कुल पसंद है!,Positive,5,Neutral,0.0,Positive,0.7941436767578125
+30,Hindi,इस श्रेणी में सर्वश्रेष्ठ उत्पाद। पूरी तरह से इसके लायक।,Positive,5,Neutral,0.0,Positive,0.935111939907074
+31,Hindi,भयानक गुणवत्ता। इस उत्पाद से पूरी तरह निराश।,Negative,1,Neutral,0.0,Negative,0.6466912627220154
+32,Hindi,अब तक की सबसे खराब खरीदारी। बिल्कुल भी अनुशंसित नहीं।,Negative,1,Neutral,0.0,Positive,0.4009632468223572
+33,Hindi,बहुत खराब गुणवत्ता। पैसे की बर्बादी।,Negative,1,Neutral,0.0,Negative,0.5349918603897095
+34,Hindi,भयानक अनुभव। एक हफ्ते में ही उत्पाद टूट गया।,Negative,1,Neutral,0.0,Negative,0.7610220313072205
+35,Hindi,अत्यंत असंतुष्ट। भयानक उत्पाद गुणवत्ता।,Negative,1,Neutral,0.0,Negative,0.4734612703323364
+36,Hindi,खराब गुणवत्ता और भयानक ग्राहक सेवा।,Negative,2,Neutral,0.0,Negative,0.4864773452281952
+37,Hindi,कीमत के लायक नहीं। बहुत निराशाजनक।,Negative,1,Neutral,0.0,Negative,0.5961434841156006
+38,Hindi,खराब डिज़ाइन और सस्ती सामग्री। इसे खरीदने का पछतावा।,Negative,1,Neutral,0.0,Positive,0.30490705370903015
+39,Hindi,दोषपूर्ण उत्पाद। तुरंत रिफंड का अनुरोध कर रहा हूं।,Negative,1,Neutral,0.0,Positive,0.34129229187965393
+40,Hindi,बेकार उत्पाद। समय और पैसे की पूरी बर्बादी।,Negative,1,Neutral,0.0,Negative,0.2563856244087219
