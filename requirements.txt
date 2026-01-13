@@ -1,0 +1,19 @@
+# Core Data Science Libraries
+pandas>=2.3.3
+numpy>=2.3.4
+
+# Visualization Libraries
+matplotlib>=3.10.7
+seaborn>=0.13.2
+plotly>=6.5.1
+
+# Natural Language Processing
+nltk>=3.9.2
+wordcloud>=1.9.5
+
+# Statistical Analysis
+scipy>=1.17.0
+
+# Jupyter Notebook (optional, for running the notebook)
+jupyter>=1.0.0
+notebook>=7.0.0
