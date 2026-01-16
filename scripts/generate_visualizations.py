@@ -14,7 +14,12 @@ from wordcloud import WordCloud
 
 # Load the dataset
 print("Loading dataset...")
-df = pd.read_csv('data/reviews_dataset.csv')
+try:
+    df = pd.read_csv('data/reviews_dataset.csv')
+    print(f"✓ Loaded {len(df)} reviews")
+except FileNotFoundError:
+    print("ERROR: data/reviews_dataset.csv not found!")
+    sys.exit(1)
 
 # Preprocessing
 print("Preprocessing data...")
@@ -24,10 +29,12 @@ df['review_length'] = df['review_text'].str.len()
 # Calculate sentiment (simple VADER-like approach)
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
+
+print("Downloading NLTK data...")
 nltk.download('vader_lexicon', quiet=True)
 
 sia = SentimentIntensityAnalyzer()
-df['sentiment_score'] = df['review_text'].apply(lambda x: sia.polarity_scores(x)['compound'])
+df['sentiment_score'] = df['review_text'].apply(lambda x: sia.polarity_scores(str(x))['compound'])
 df['sentiment_category'] = df['sentiment_score'].apply(
     lambda x: 'Positive' if x >= 0.05 else ('Negative' if x <= -0.05 else 'Neutral')
 )
@@ -137,6 +144,16 @@ plt.tight_layout()
 plt.savefig('images/top_words_by_sentiment.png', dpi=300, bbox_inches='tight')
 plt.close()
 print("   ✓ Saved: top_words_by_sentiment.png")
+
+# ========== Summary Statistics ==========
+print("\n" + "="*60)
+print("SENTIMENT DISTRIBUTION:")
+print("="*60)
+sentiment_counts = df['sentiment_category'].value_counts()
+for category in ['Positive', 'Negative', 'Neutral']:
+    count = sentiment_counts.get(category, 0)
+    percentage = (count / len(df)) * 100
+    print(f"{category:10s}: {count:3d} reviews ({percentage:5.1f}%)")
 
 print("\n" + "="*60)
 print("✓ All visualizations generated successfully!")
